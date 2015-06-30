@@ -12,11 +12,25 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/class-mapping/*")
 public class ClasslevelMappingController {
 
+	
+	
+	
+	
+	
+	
 	@RequestMapping("/path")
 	public @ResponseBody String byPath() {
 		return "Mapped by path!";
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
 	@RequestMapping(value="/path/*", method=RequestMethod.GET)
 	public @ResponseBody String byPathPattern(HttpServletRequest request) {
 		return "Mapped by path pattern ('" + request.getRequestURI() + "')";
