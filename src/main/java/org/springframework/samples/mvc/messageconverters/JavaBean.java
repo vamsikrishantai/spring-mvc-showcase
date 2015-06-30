@@ -5,9 +5,27 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class JavaBean {
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	@NotNull
 	private String foo;
+
+
+
+
+
+
+	
 
 	@NotNull
 	private String fruit;

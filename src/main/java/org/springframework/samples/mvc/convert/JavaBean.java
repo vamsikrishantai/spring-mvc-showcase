@@ -14,6 +14,16 @@ public class JavaBean {
 	@DateTimeFormat(iso=ISO.DATE)
 	private Date date;
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@MaskFormat("(###) ###-####")
 	private String masked;
 
